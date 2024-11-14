@@ -21,6 +21,7 @@ body{
     height: 10vh;
     display: flex;
     align-items: end;
+    position: static;
     justify-content: end;
 }
 
@@ -38,6 +39,7 @@ body{
     height: 100%;
     display: flex;
     flex-direction: row;
+    border: none;
 }
 
 .box-img{
@@ -53,6 +55,62 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+}
+
+.position {
+    width: 100%;
+    height: 90%;    
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login h1{
+    font-size: 50px;
+}
+
+.position .loginbase{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    height: 25%;
+    font-size: 25px;
+    border: solid none;
+    height: 25vh;
+}
+
+
+.loginbase .input1{
+    fill-opacity: 100%;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: transparent; 
+    border: black solid 2px;
+    border-color: none;
+    padding: 10px;
+}
+
+.loginbase .input2{
+    fill-opacity: 100%;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: transparent; 
+    border: black solid 2px;
+    border-color: none;
+    padding: 10px;
+}
+
+.position .inputlogin{
+    display: flex;
+    border: solid red 2px;
+    
+
 }
 
 
