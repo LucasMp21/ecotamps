@@ -45,73 +45,126 @@ body{
 .box-img{
     width: 50%;
     height: 90vh;
-    background-image: url(/img/garrafas.png);
+    background-image: url(/img/pexels-polina-tankilevitch-3735202\ 1\ \(1\).png);
     background-repeat: no-repeat;
-    background-size: 450px;
+    background-size: 540px;
     background-position: center;
+
+}
+
+.container .position{
+    width: 70%;
+    height: 100%;
+    display: flex;
 }
 
 .login{
-    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    flex-direction: column;
     position: relative;
-    justify-content: space-around;
+    top: 10vh;
 }
 
-.position {
-    width: 100%;
-    height: 90%;    
-    padding-top: 50px;
+.login .titulos{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulos h1{
+    display: flex;
+
+}
+
+.titulos h3{
+    font-size: 20px;
+}
+
+.login .logininput{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.logininput .input1{
+    width: 50%;
+    height: 6vh;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: transparent;
+    color: black; /* Cor do texto */
+    outline: none;
+}
+
+.logininput .input2{
+    width: 50%;
+    height: 5vh;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: transparent;
+    color: black; /* Cor do texto */
+    outline: none;
+}
+
+.logininput .entrar{
+    width: 30%;
+    height: 8vh;
+    border-radius: 50px;
+    color: white;
+    background-color: #275B3A;
+    cursor: pointer;
+}
+
+.logininput .google{
+    width: 40%;
+    height: 8vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: white;
+    border-radius: 50px;;
+    background-color: #275B3A;
+    cursor: pointer;
+}
+
+.login .cadastro{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
-.login h1{
-    font-size: 50px;
+.cadastro .register{
+    width: 30%;
+    height: 8vh;
+    border-radius: 50px;
+    color: white;
+    background-color: #275B3A;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 4vh;
+    cursor: pointer;
 }
 
-.position .loginbase{
-    padding: 25px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 50%;
-    height: 25%;
-    font-size: 25px;
-    border: solid none;
-    height: 25vh;
+a{
+    text-decoration: none;
+    color: white;
 }
-
-
-.loginbase .input1{
-    fill-opacity: 100%;
-    font-size: 20px;
-    border-radius: 30px;
-    background-color: transparent; 
-    border: black solid 2px;
-    border-color: none;
-    padding: 10px;
-}
-
-.loginbase .input2{
-    fill-opacity: 100%;
-    font-size: 20px;
-    border-radius: 30px;
-    background-color: transparent; 
-    border: black solid 2px;
-    border-color: none;
-    padding: 10px;
-}
-
-.position .inputlogin{
-    display: flex;
-    border: solid red 2px;
-    
-
-}
-
-
 
