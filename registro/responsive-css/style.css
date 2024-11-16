@@ -43,7 +43,7 @@ body{
 .container  .boximg{
     width: 50%;
     height: 90vh;
-    background-image: url(./img/garrafas.png);
+    background-image:url(/img/garrafas.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 550px;
@@ -104,4 +104,17 @@ body{
     color: black; /* Cor do texto */
     outline: none;
     padding-left: 10px;
+}
+
+.boxbtn{
+    width: 30%;
+    height: 8vh;
+    border-radius: 50px;
+    color: white;
+    background-color: #275B3A;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 4vh;
+    cursor: pointer;
 }
