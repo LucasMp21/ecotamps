@@ -62,5 +62,46 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+}
+
+.cadastro .inputs{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs input{
+    width: 50%;
+    margin-bottom: 10px;
+    height: 25vh;
+    border-radius: 50px;
+    font-size: 15px;
+    order: solid 1px black;
+    background-color: transparent;
+    color: black; /* Cor do texto */
+    outline: none;
+    padding-left: 10px;
+}
+
+.pessoal{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pessoal input{
+    margin: 5px; 
+    height: 9vh;
+    width: 25%;
+    border-radius: 50px;
+    font-size: 15px;
+    order: solid 1px black;
+    background-color: transparent;
+    color: black; /* Cor do texto */
+    outline: none;
+    padding-left: 10px;
 }
