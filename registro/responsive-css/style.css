@@ -105,16 +105,3 @@ body{
     outline: none;
     padding-left: 10px;
 }
-
-.boxbtn{
-    width: 30%;
-    height: 8vh;
-    border-radius: 50px;
-    color: white;
-    background-color: #275B3A;
-    color: white;
-    text-decoration: none;
-    font-style: normal;
-    font-size: 4vh;
-    cursor: pointer;
-}
