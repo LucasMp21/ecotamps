@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #CBBD93;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2E5234; /* Verde escuro */
+    padding: 10px 20px;
+}
+
+.navbar1{
+    background-color: white;
+    position: relative;
+    border-radius: 200px;
+    top: 100px;
+    border: #275B3A solid 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px;
+    height: 110px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.input
+
+.login {
+    color: #D4C19C; /* Cor do texto "Entrar" */
+    font-size: 18px;
+}
+
+.login-button { 
+    background-color: #CBBD93; 
+    color: #000; 
+    padding: 10px 30px; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: right;
+}
+
+.container-fluid-h1{
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200vh;
+    filter: drop-shadow(-1px 5px 7px #000000);
+    background-image: url(/img/pexels-polina-tankilevitch-3738388.jpg);
+}
+
+.container-fluid-h1 h1 {
+    color: #2E5234;
+}
+
+.container-fluid-h1 h2 {
+    color: #2E5234;
+}
